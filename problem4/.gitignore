@@ -1,0 +1,22 @@
+# Virtual env
+.venv/
+venv/
+env/
+
+# Python cache / compiled
+__pycache__/
+*.py[cod]
+
+# Flask
+instance/
+*.sqlite3
+
+# Environment variables / secrets
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
