@@ -1,31 +1,27 @@
-# CMake build output
-/build/
-cmake-build-*/
-out/
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-*.cmake
+# Virtual environments
+.venv/
+venv/
+.env/
 
-# Visual Studio / MSBuild (Windows)
-.vs/
-x64/
-Debug/
-Release/
-*.sln
-*.vcxproj*
-*.dir/
-*.obj
-*.pdb
-*.ilk
-*.idb
-*.tlog
+# Local DB (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
 *.log
 
-# VS Code settings
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# VS Code
 .vscode/
 
 # OS junk

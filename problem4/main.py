@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base, Session, relationship
 # =========================
 # Config
 # =========================
-SECRET_KEY = "CHANGE_ME_TO_SOMETHING_RANDOM"  
+SECRET_KEY = "NftAtwgVLJ9x9RdM4khkxhpW8/jziqI155MMtQUW2ZFzulID+1bXCndYCGkwnlDhjIF6d+0jvYzgKgL2RfS2dA=="  
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
@@ -74,7 +74,7 @@ Base.metadata.create_all(bind=engine)
 # =========================
 class UserCreate(BaseModel):
     username: str = Field(min_length=3, max_length=50)
-    password: str = Field(min_length=6, max_length=100)
+    password: str = Field(min_length=6, max_length=72)  # bcrypt 제한에 맞춤
 
 
 class Token(BaseModel):
@@ -196,10 +196,10 @@ def login(form: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get
     return Token(access_token=token)
 
 
-# (과제용) 관리자 계정 생성 엔드포인트: 제출 후엔 지우는 게 정상
+# 관리자 계정 생성 엔드포인트:  
 @app.post("/auth/bootstrap-admin", status_code=201)
 def bootstrap_admin(body: UserCreate, db: Session = Depends(get_db)):
-    # 이미 admin 있으면 막아도 되지만 과제에서는 단순하게
+  
     exists = db.query(User).filter(User.username == body.username).first()
     if exists:
         raise HTTPException(status_code=409, detail="Username already exists")
