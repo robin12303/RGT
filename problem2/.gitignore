@@ -1,0 +1,32 @@
+# CMake build directory
+/build/
+cmake-build-*/
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Visual Studio / MSBuild outputs (Windows)
+.vs/
+x64/
+Debug/
+Release/
+*.sln
+*.vcxproj*
+*.dir/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
