@@ -1,0 +1,10 @@
+^C:\USERS\ANHWA\ONEDRIVE\DESKTOP\ASSIGNMENT\PROBLEM2\RGT\PROBLEM2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/anhwa/OneDrive/Desktop/assignment/problem2/RGT/problem2 -BC:/Users/anhwa/OneDrive/Desktop/assignment/problem2/RGT/problem2/build --check-stamp-file C:/Users/anhwa/OneDrive/Desktop/assignment/problem2/RGT/problem2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

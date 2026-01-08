@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\anhwa\OneDrive\Desktop\assignment\problem2\RGT\problem2\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\anhwa\OneDrive\Desktop\assignment\problem2\RGT\problem2\CircularBuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anhwa\OneDrive\Desktop\assignment\problem2\RGT\problem2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{231790C3-2B5B-3C6B-BB37-9173F5D15748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0B3886E1-F5EE-3B31-9AED-59BB7B1C8C5F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
