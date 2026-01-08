@@ -9,7 +9,7 @@ cmake_install.cmake
 Makefile
 *.cmake
 
-# Visual Studio / MSBuild outputs (Windows)
+# Visual Studio / MSBuild outputs(Windows)
 .vs/
 x64/
 Debug/
