@@ -8,7 +8,7 @@
 
 ---
 
-## PROBLEM1
+## 스마트 포인터를 활용한 리소스 관리
 
 ### 빌드 및 실행 (출력 저장 포함)
 
@@ -39,7 +39,7 @@ Get-Content .\info.log   | Tee-Object -Append terminal_output_problem1.txt
 
 ---
 
-## PROBLEM2
+## 템플릿과 STL을 활용한 컨테이너 설계
 
 Problem2는 한글 출력이 깨질 수 있어 UTF-8 설정 + cmd 리다이렉트로 “바이트 그대로” 파일에 저장합니다.
 
@@ -73,7 +73,7 @@ cmd /c "`"$exe`" >> terminal_output_problem2.txt 2>&1"
 
 ---
 
-## PROBLEM3
+## 멀티스레딩과함수형 프로그래밍을 활용한 병렬 처리리 
 
 Problem3도 Problem2와 동일하게 UTF-8 설정 + cmd 리다이렉트로 출력 저장합니다.
 
@@ -111,7 +111,7 @@ cmd /c "chcp 65001>nul & ""$exe"" >> ""$out"" 2>&1"
 
 ---
 
-## PROBLEM4 (FastAPI)
+## Flask/FastAPI를 활용한 RESTful API 서버 구현
 
 ### 설치 및 실행
 
@@ -149,7 +149,7 @@ API 문서(Swagger):
 python -m pytest -q
 ```
 
-(제출용으로 pytest 결과를 파일로 남기고 싶으면)
+(pytest 결과를 파일로 저장)
 
 ```powershell
 python -m pytest -q | Out-File terminal_output_problem4_pytest.txt -Encoding utf8
