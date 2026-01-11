@@ -9,6 +9,7 @@
 ---
 
 ## 스마트 포인터를 활용한 리소스 관리
+<img width="1320" height="723" alt="1" src="https://github.com/user-attachments/assets/e882f214-9490-4fd9-a0b3-56865616517a" />
 
 ### 빌드 및 실행 (출력 저장 포함)
 
@@ -40,6 +41,7 @@ Get-Content .\info.log   | Tee-Object -Append terminal_output_problem1.txt
 ---
 
 ## 템플릿과 STL을 활용한 컨테이너 설계
+<img width="1566" height="600" alt="2" src="https://github.com/user-attachments/assets/4e872fe9-8f04-4289-b848-cd11bbcdc894" />
 
 Problem2는 한글 출력이 깨질 수 있어 UTF-8 설정 + cmd 리다이렉트로 “바이트 그대로” 파일에 저장합니다.
 
@@ -73,7 +75,8 @@ cmd /c "`"$exe`" >> terminal_output_problem2.txt 2>&1"
 
 ---
 
-## 멀티스레딩과함수형 프로그래밍을 활용한 병렬 처리리 
+## 멀티스레딩과함수형 프로그래밍을 활용한 병렬 처리
+<img width="1344" height="909" alt="3" src="https://github.com/user-attachments/assets/675ef3a3-c936-4b55-b4cb-3930973326fc" />
 
 Problem3도 Problem2와 동일하게 UTF-8 설정 + cmd 리다이렉트로 출력 저장합니다.
 
@@ -112,6 +115,8 @@ cmd /c "chcp 65001>nul & ""$exe"" >> ""$out"" 2>&1"
 ---
 
 ## Flask/FastAPI를 활용한 RESTful API 서버 구현
+<img width="1100" height="900" alt="4 1" src="https://github.com/user-attachments/assets/02a70018-b196-4697-ac46-4a5cdba3d314" />
+<img width="1090" height="433" alt="4 2" src="https://github.com/user-attachments/assets/cb23a010-b346-4a52-8c1e-3d597fa109e4" />
 
 ### 설치 및 실행
 
