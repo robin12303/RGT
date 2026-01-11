@@ -1,0 +1,11 @@
+﻿bootstrap_admin	{"id":1,"username":"admin","role":"admin"}
+admin_login	{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwidXNlcm5hbWUiOiJhZG1pbiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTc2ODA5ODQ4MiwiZXhwIjoxNzY4MTAyMDgyfQ.0WJwuvosWqGN5ox9J-IUwjIuJXx7nots6auHF0Bew_k","token_type":"bearer"}
+admin_token_len	187
+create_book	{"id":1,"title":"Clean Code","author":"Robert C. Martin","total_copies":1,"available_copies":1}
+book_id	1
+signup_user	{"id":2,"username":"user1","role":"user"}
+user_login	{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwidXNlcm5hbWUiOiJ1c2VyMSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzY4MDk4NDgyLCJleHAiOjE3NjgxMDIwODJ9.nVcSN80aNkoo_kvh660K8_X5-t21doXlqmnW-u1LzYE","token_type":"bearer"}
+user_token_len	185
+borrow	{"loan_id":1,"book_id":1,"borrowed_at":"2026-01-11T02:28:02.502618"}
+return	{"loan_id":1,"book_id":1,"returned_at":"2026-01-11T02:28:02.516716"}
+my_loans	{"id":1,"book_id":1,"borrowed_at":"2026-01-11T02:28:02.502618","returned_at":"2026-01-11T02:28:02.516716"}
