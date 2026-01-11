@@ -165,7 +165,7 @@ python -m pytest -q | Out-File terminal_output_problem4_pytest.txt -Encoding utf
 * Problem4:
 
   * 수동 테스트 로그: `manual_test_output.jsonl`
-  * (선택) pytest 로그: `terminal_output_problem4_pytest.txt`
+  * (pytest 로그: `terminal_output_problem4_pytest.txt`
 
 ---
 
